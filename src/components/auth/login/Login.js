@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
-import './Style.css';
+import {Link} from 'react-router-dom';
+import '../styles/Style.css';
+
 
 
 class Login extends Component{
 
     render(){
         return(
-            <div className="wrap-login100 content"> 
+			
+            <div className="wrap-login100 content fondo"> 
                 <form>
                     <span className="login100-form-title">
                         Iniciar Sesion
@@ -31,10 +34,8 @@ class Login extends Component{
 						</button>
 					</div>
 					<div className="text-center p-t-136">
-						<a className=""  href="/register">
-							Registrate
-							
-						</a>
+					<Link to="/register">Registrate</Link>
+						
 					</div>
                 </form>
 
