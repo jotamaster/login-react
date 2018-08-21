@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch,BrowserRouter as Router,Route } from 'react-router-dom';
-import Login from './components/auth/login/Login';
-import Register from './components/auth/register/Register';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
 
 
 class App extends Component {
